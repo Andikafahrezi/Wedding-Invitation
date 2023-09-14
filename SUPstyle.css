@@ -314,7 +314,7 @@ body {
 
 footer {
   padding: 3rem;
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   color: black;
 }
 
@@ -332,7 +332,7 @@ footer li {
   list-style: none;
   display: inline;
 }
-.audio-icon-py{
+.audio-icon-py {
   width: 4rem;
   height: 4rem;
   font-size: 4rem;
@@ -352,10 +352,10 @@ footer li {
 }
 
 @keyframes rotating {
-  form  {
+  form {
     transform: rotate(0);
   }
-  to{
+  to {
     transform: rotate(360deg);
   }
 }
@@ -436,6 +436,10 @@ footer li {
 
   .home .couple h3.atul {
     text-align: left;
+  }
+
+  .sticky-top {
+    overflow: hidden;
   }
 
   .timeline li .timeline-image {
