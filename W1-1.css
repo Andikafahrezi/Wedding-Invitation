@@ -118,7 +118,7 @@ body {
 }
 
 .hero .content h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #fff;
   text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
   line-height: 1.2rem;
@@ -194,13 +194,17 @@ body {
 }
 
 .about .row .content h3 {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
 }
-
-.about .row .content p {
-  margin-bottom: 0.8rem;
+.about .row .content details {
   font-size: 1.4rem;
+}
+
+
+.about .row .content details p {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
   font-weight: 100;
   line-height: 1.6;
 }
@@ -391,9 +395,15 @@ footer .credit {
   font-size: 0.8rem;
 }
 
-footer .credit a {
+footer .credit p {
+  color: #fff;
+  font-weight: 200;
+}
+footer .credit p a{
+  color: #fff;
+}
+footer .credit a:hover {
   color: var(--bg);
-  font-weight: 700;
 }
 /* mediaqueries */
 /*  laptop*/
