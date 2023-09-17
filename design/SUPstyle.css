@@ -1,29 +1,28 @@
 :root {
-  --pink: #5e5d5b;
-  --bg: #0a0a0a;
+  --pink: #f14e95;
+  --bg: #000;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
 body {
   font-size: 1.2rem;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   min-height: 4000px;
 }
 
-.hero::before {
-  content: '';
+.hero ::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/mountain.jpg);
+  background-image: url(../img/mountain.jpg);
   background-size: cover;
   background-position: center;
   z-index: -1;
-  filter: grayscale();
+  /* UNTUK MEMBUAT BACKGROUND MENJADI GELAP BISA MENGGUNAKAN 'FILTER' */
 }
-
 .hero {
   position: relative;
   min-height: 100vh;
@@ -34,9 +33,8 @@ body {
 .hero p {
   text-shadow: var(--shadow);
 }
-
 .hero h1 {
-  font-family: 'Sacramento', cursive;
+  font-family: "Pangolin", cursive;
   font-size: 6rem;
 }
 
@@ -60,8 +58,9 @@ body {
 }
 
 .mynavbar {
-  background-color: rgba(255, 255, 255, 0.3) !important;
-  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(3px);
+  margin-left: -8px;
 }
 
 .mynavbar .offcanvas {
@@ -69,10 +68,9 @@ body {
 }
 
 .mynavbar .navbar-brand,
-.mynavbar .offcanvas-title {
-  font-family: 'Sacramento', cursive;
-  font-size: 3.2rem;
-  font-weight: bold;
+.mynabar .offcanvas-tittle {
+  font-family: "Pangolin", cursive;
+  font-size: 3rem;
 }
 
 .mynavbar .nav-link {
@@ -80,11 +78,11 @@ body {
 }
 
 .home {
-  background-image: url(img/bg.png);
+  background-image: url(../img/nana.png);
   background-size: cover;
   min-height: 100vh;
   margin-top: -6rem;
-  padding-top: 15rem;
+  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
@@ -93,9 +91,9 @@ body {
 .story h2,
 .gallery h2,
 .rsvp h2,
-.gifts h2 {
+.gift h2 {
   color: var(--pink);
-  font-family: 'Sacramento';
+  font-family: "Pangolin", cursive;
   font-size: 5rem;
   font-weight: bold;
 }
@@ -107,7 +105,7 @@ body {
 }
 
 .home p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #666;
 }
 
@@ -116,8 +114,8 @@ body {
 }
 
 .home .couple h3 {
-  font-family: 'Sacramento';
-  font-size: 2.4rem;
+  font-family: "Pangolin";
+  font-size: 2.1rem;
   color: var(--pink);
 }
 
@@ -125,25 +123,8 @@ body {
   width: 100%;
 }
 
-.home .heart {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  display: flex;
-  border-radius: 50%;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%) translateY(65px);
-}
-
-.home .heart i {
-  margin: auto;
-  color: var(--pink);
-}
-
 .info {
-  background-color: var(--bg);
+  background-color: rgb(168, 168, 166);
   color: white;
   padding-top: 10rem;
   padding-bottom: 8rem;
@@ -183,14 +164,14 @@ body {
 .story,
 .gallery,
 .rsvp,
-.gifts {
+.gift {
   padding-top: 10rem;
-  padding-bottom: 8rem;
+  padding-bottom: 10rem;
 }
 
 .story span,
 .gallery span,
-.gifts span {
+.gift span {
   text-transform: uppercase;
   color: #666;
   font-size: 0.9rem;
@@ -201,26 +182,25 @@ body {
 
 .story p,
 .gallery p,
-.rsvp p,
-.gifts p {
+.gift p {
   font-size: 1rem;
   font-weight: 300;
 }
 
 .timeline {
   list-style: none;
-  padding: 1.4rem 0;
+  padding: 1.4rem;
   margin-top: 1rem;
   position: relative;
 }
 
 .timeline::before {
-  content: '';
+  content: "";
   top: 0;
   bottom: 0;
   position: absolute;
   width: 1px;
-  background-color: #ccc;
+  background-color: #444;
   left: 50%;
 }
 
@@ -231,7 +211,7 @@ body {
 
 .timeline li::before,
 .timeline li::after {
-  content: '';
+  content: "";
   display: table;
 }
 
@@ -242,7 +222,7 @@ body {
 .timeline li .timeline-image {
   width: 160px;
   height: 160px;
-  background-color: #ccc;
+  background-color: #999;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -255,32 +235,32 @@ body {
 .timeline li .timeline-panel {
   width: 40%;
   float: left;
-  border: 1px solid #ccc;
+  border: 1px solid #999;
   padding: 2rem;
   position: relative;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: white;
 }
 
 .timeline li .timeline-panel::before {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   border-top: 15px solid transparent;
-  border-left: 15px solid #ccc;
-  border-right: 0 solid #ccc;
+  border-left: 15px solid #999;
+  border-right: 0 solid #999;
   border-bottom: 15px solid transparent;
   top: 80px;
   right: -15px;
 }
 
 .timeline li .timeline-panel::after {
-  content: '';
+  content: "";
   position: absolute;
   display: inline-block;
   border-top: 14px solid transparent;
-  border-left: 14px solid #fff;
-  border-right: 0 solid #fff;
+  border-left: 14px solid white;
+  border-right: 0 solid white;
   border-bottom: 14px solid transparent;
   top: 81px;
   right: -13px;
@@ -305,25 +285,21 @@ body {
 }
 
 .gallery {
-  background-color: #f5f5f5;
+  background-color: antiquewhite;
 }
 
 .rsvp {
-  background-color: var(--bg);
+  background-color: rgb(168, 168, 166);
 }
-
 .rsvp h2 {
   font-size: 4.5rem;
 }
-
 .rsvp p {
   color: white;
 }
-
 .rsvp form label {
   color: white;
 }
-
 .rsvp button {
   background-color: var(--pink);
   color: white;
@@ -338,8 +314,8 @@ body {
 
 footer {
   padding: 3rem;
-  background-color: var(--pink);
-  color: white;
+  background-color: antiquewhite;
+  color: black;
 }
 
 footer a {
@@ -355,10 +331,8 @@ footer a:hover {
 footer li {
   list-style: none;
   display: inline;
-  margin: 0.5rem;
 }
-
-.audio-icon-wrapper {
+.audio-icon-py {
   width: 4rem;
   height: 4rem;
   font-size: 4rem;
@@ -378,7 +352,7 @@ footer li {
 }
 
 @keyframes rotating {
-  from {
+  form {
     transform: rotate(0);
   }
   to {
@@ -386,50 +360,35 @@ footer li {
   }
 }
 
-/* Media Query */
-/* Extra large */
-@media (max-width: 1200px) {
-  .home .heart {
-    transform: translateX(-50%) translateY(45px);
-  }
-}
+/* media querry */
 
 /* laptop */
 @media (max-width: 992px) {
   html {
     font-size: 75%;
   }
-
   .simply-countdown > .simply-section {
     padding: 70px;
-  }
-
-  .home .heart {
-    display: none;
   }
 
   .timeline::before {
     left: 60px;
   }
-
   .timeline li .timeline-image {
     left: 15px;
     margin-left: 45px;
     top: 16px;
   }
-
   .timeline li .timeline-panel {
-    width: calc((100% - 200px));
+    width: calc(100%-200px);
     float: right;
   }
-
   .timeline li .timeline-panel::before {
     border-left-width: 0;
     border-right-width: 15px;
     left: -15px;
     right: auto;
   }
-
   .timeline li .timeline-panel::after {
     border-left-width: 0;
     border-right-width: 14px;
@@ -437,13 +396,11 @@ footer li {
     right: auto;
   }
 }
-
 /* tablet */
 @media (max-width: 768px) {
   html {
     font-size: 65%;
   }
-
   .simply-countdown > .simply-section {
     padding: 60px;
     margin: 5px;
@@ -451,7 +408,6 @@ footer li {
 
   .mynavbar .nav-link {
     font-size: 2rem;
-    text-align: center;
   }
 
   .sticky-top {
@@ -459,37 +415,57 @@ footer li {
   }
 
   .timeline li .timeline-image {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
   }
 }
 
-/* mobile phone */
+/* handphone */
 @media (max-width: 576px) {
   html {
     font-size: 60%;
   }
-
   .simply-countdown > .simply-section {
     padding: 45px;
     margin: 3px;
   }
 
+  .home .couple h3 {
+    text-align: right;
+  }
+
+  .home .couple h3.atul {
+    text-align: left;
+  }
+
+  .info iframe{
+    width: 200px;
+    height: 200px;
+  }
+
+  .sticky-top {
+    overflow: hidden;
+  }
+
   .timeline li .timeline-image {
     width: 80px;
     height: 80px;
+    left: 0.1%;
   }
-
   .timeline li .timeline-panel {
     width: 65%;
     transform: translateX(-20px);
   }
-
   .timeline li .timeline-panel::before {
     top: 30px;
   }
-
   .timeline li .timeline-panel::after {
     top: 31px;
+  }
+  .audio-icon-py {
+    width: 4rem; 
+    height: 4rem;
+    font-size: 4rem;  
+    bottom: 5rem;
   }
 }

@@ -29,7 +29,7 @@ window.addEventListener("load", function () {
         icon: "success",
         title: "Konfirmasi Pesanan Berhasil!",
         showConfirmButton: false,
-        timer: 1500,
+        timer: 1000,
       });
     });
   });

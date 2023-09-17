@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Wedding Invitation,addust</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -71,13 +71,19 @@
 
     <section class="products" id="products">
       <h2><span>Produk Unggulan</span> Kami</h2>
-      <p> Dibawah ini Merupakan katalog dari Produk kami</p>
+      <p>Dibawah ini Merupakan katalog dari Produk kami</p>
+      <details>
+        <summary>Panduan</summary>
+        <li>Icon Cart untuk melakukan pembelian langsung di shopee</li>
+        <li>Icon Mata unuk melihat design yang ada di dalam Katalog</li>
+        <li>Icon chat untuk melakukan pemesanan melalui whatsapp</li>
+      </details>
 
       <div class="row">
         <div class="product-card">
           <div class="product-icons">
             <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="SUpernikahan.html" class="item-detail-button"
+            <a href="design/SUpernikahan.html" class="item-detail-button"
               ><i data-feather="eye"></i
             ></a>
             <a
@@ -103,7 +109,7 @@
         <div class="product-card">
           <div class="product-icons">
             <a href="#"><i data-feather="shopping-cart"></i></a>
-            <a href="1.html" class="item-detail-button"
+            <a href="design/1.html" class="item-detail-button"
               ><i data-feather="eye"></i
             ></a>
             <a
@@ -147,13 +153,16 @@
             </div>
             <div class="product-price">IDR 30K <span>IDR 55K</span></div>
           </div>
-        </div>  
+        </div>
       </div>
     </section>
     <!-- contact selection start -->
     <selection id="contact" class="contact">
       <h2>Kontak <span>Kami</span></h2>
-      <p>Isi Form dibawah ini untuk konsultasi lebih lanjut terkait pemesanan</p>
+
+      <p>
+        Isi Form dibawah ini untuk konsultasi lebih lanjut terkait pemesanan
+      </p>
       <div class="row">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.7548569094062!2d106.75296708391186!3d-6.2586122742143715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f0f67704afc5%3A0x3c72ca7b8ef677!2sJl.%20Pd.%20Betung%20No.95%2C%20RT.6%2FRW.3%2C%20Pd.%20Betung%2C%20Kec.%20Pd.%20Aren%2C%20Kota%20Tangerang%20Selatan%2C%20Banten%2015221!5e0!3m2!1sid!2sid!4v1674986734253!5m2!1sid!2sid"
@@ -179,6 +188,11 @@
             <label for="no hp"></label>
             <i data-feather="phone"></i>
             <input type="text" name="nohp" placeholder="No Handphone" />
+          </div>
+          <div class="input-group">
+            <label for="katalog"></label>
+            <i data-feather="book"></i>
+            <input type="text" name="katalog" placeholder="Katalog" />
           </div>
           <button class="btn" onclick="showAlert()">Kirim</button>
         </form>
@@ -206,7 +220,9 @@
 
       <div class="credit">
         <p>
-          &copy; 2022 All Rights Reserved.<br/>Created By<a href="https://instragram.com/andikafahrezzi">@andikafahrezi</a
+          &copy; 2022 All Rights Reserved.<br />Created By<a
+            href="https://instragram.com/andikafahrezzi"
+            >@andikafahrezi</a
           >
         </p>
       </div>

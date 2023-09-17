@@ -210,7 +210,7 @@ body {
   margin-bottom: 2rem;
 }
 .contact p,
-.products p {
+.products p, .products details {
   text-align: center;
   max-width: 30rem;
   margin: auto;
@@ -218,6 +218,13 @@ body {
   line-height: 1.6;
 }
 
+.products details summary {
+  font-size: 0.9rem;
+  font-weight: 80;
+}
+.products details li{
+  font-size: 0.7rem;
+}
 .products .row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
