@@ -176,6 +176,12 @@ body {
   color: var(--primary);
 }
 
+.about p{
+  text-align: justify;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
 .about .row {
   display: flex;
 }
@@ -196,6 +202,11 @@ body {
 .about .row .content h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
+}
+.about .row .content h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 .about .row .content details {
   font-size: 1.4rem;
@@ -350,6 +361,7 @@ body {
   background-color: var(--primary);
   color: white;
   border: 1px solid var(--primary);
+  border-radius: 3rem;
 }
 
 .contact .row form button:hover {
@@ -501,6 +513,9 @@ footer .credit a:hover {
     height: 80%;
     object-fit: cover;
     object-position: center;
+  }
+  .about .row .content h3{
+    margin-top: -10rem;
   }
 }
 /*  handphone2*/
