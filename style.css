@@ -220,7 +220,7 @@ body {
   line-height: 1.6;
 }
 
-/* menu section */
+/* Product section */
 .products h2 {
   margin-bottom: 2rem;
 }
@@ -345,14 +345,6 @@ body {
   color: #fff;
 }
 
-/* .contact .row form .btn {
-  margin-top: 3rem;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1.7rem;
-  color: #fff;
-  background-color: var(--primary);
-} */
 .contact .row form button {
   margin-top: 3rem;
   display: inline-block;
