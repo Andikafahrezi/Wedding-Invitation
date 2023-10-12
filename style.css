@@ -176,7 +176,7 @@ body {
   color: var(--primary);
 }
 
-.about p{
+.about p {
   text-align: justify;
   font-size: 1.1rem;
   margin-bottom: 2rem;
@@ -212,7 +212,6 @@ body {
   font-size: 1.4rem;
 }
 
-
 .about .row .content details p {
   margin-bottom: 0.8rem;
   font-size: 1.2rem;
@@ -225,7 +224,8 @@ body {
   margin-bottom: 2rem;
 }
 .contact p,
-.products p, .products details {
+.products p,
+.products details {
   text-align: center;
   max-width: 30rem;
   margin: auto;
@@ -237,7 +237,7 @@ body {
   font-size: 0.9rem;
   font-weight: 80;
 }
-.products details li{
+.products details li {
   font-size: 0.7rem;
 }
 .products .row {
@@ -313,17 +313,16 @@ body {
   display: flex;
   margin-top: 5rem;
   background-color: #222;
-  
 }
 
 .contact .row .map {
-  flex: 1 1 45rem;
-  width: 50%;
+  flex: 1 1 15rem;
+  width: 20%;
   object-fit: cover;
 }
 
 .contact .row form {
-  flex: 1 1 45rem;
+  flex: 1 1 20rem;
   padding: 5rem 2rem;
   text-align: center;
 }
@@ -353,6 +352,7 @@ body {
   background-color: var(--primary);
   color: white;
   border: 1px solid var(--primary);
+  cursor: pointer;
   border-radius: 3rem;
 }
 
@@ -403,7 +403,7 @@ footer .credit p {
   color: #fff;
   font-weight: 200;
 }
-footer .credit p a{
+footer .credit p a {
   color: #fff;
 }
 footer .credit a:hover {
@@ -497,7 +497,7 @@ footer .credit a:hover {
 }
 
 /* Handphone1 */
-@media(max-width: 600px){
+@media (max-width: 600px) {
   html {
     font-size: 60%;
   }
@@ -506,7 +506,7 @@ footer .credit a:hover {
     object-fit: cover;
     object-position: center;
   }
-  .about .row .content h3{
+  .about .row .content h3 {
     margin-top: -10rem;
   }
 }
