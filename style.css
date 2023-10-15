@@ -1,6 +1,7 @@
 :root {
-  --primary: #b6895b;
+  --primary: #1a20c6;
   --bg: #010101;
+  --star:#f6f208;
 }
 
 * {
@@ -291,13 +292,8 @@ body {
 .products .product-stars {
   font-size: 1.7rem;
   padding: 0.8rem;
-  color: var(--primary);
+  color: var(--star);
 }
-
-.products .product-stars .star-full {
-  fill: var(--primary);
-}
-
 .products .product-price {
   font-size: 1.3rem;
   font-weight: bold;
@@ -488,7 +484,8 @@ footer .credit a:hover {
   }
 
   .contact .row .map {
-    height: 30rem;
+    height: 33rem;
+
   }
 
   .contact .row form {
@@ -520,4 +517,5 @@ footer .credit a:hover {
     object-fit: cover;
     object-position: center;
   }
+  
 }
