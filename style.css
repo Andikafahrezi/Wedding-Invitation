@@ -159,7 +159,7 @@ body {
 .menu,
 .products,
 .contact {
-  padding: 7rem 7% 1.4rem;
+  padding: 5rem 3% 1.4rem;
 }
 .about h2,
 .menu h2,
@@ -188,7 +188,7 @@ body {
 }
 
 .about .row .about-img {
-  flex: 1 1 45rem;
+  flex: 1 1 10rem;
 }
 
 .about .row .about-img img {
@@ -311,14 +311,14 @@ body {
   background-color: #222;
 }
 
-.contact .row .map {
-  flex: 1 1 15rem;
-  width: 20%;
+.contact .row img {
+  flex: 1 1 1rem;
+  width: 100%;
   object-fit: cover;
 }
 
 .contact .row form {
-  flex: 1 1 20rem;
+  flex: 1 1 10rem;
   padding: 5rem 2rem;
   text-align: center;
 }
@@ -333,7 +333,7 @@ body {
 }
 
 .contact .row form .input-group input {
-  width: 50%;
+  width: 100%;
   padding: 2rem;
   font-size: 1.7rem;
   background: none;
