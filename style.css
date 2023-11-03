@@ -411,6 +411,7 @@ footer .credit a:hover {
   html {
     font-size: 75%;
   }
+  
 }
 /* tablet */
 @media (max-width: 758px) {
@@ -485,7 +486,6 @@ footer .credit a:hover {
 
   .contact .row .map {
     height: 33rem;
-
   }
 
   .contact .row form {
@@ -500,11 +500,29 @@ footer .credit a:hover {
   }
   .about .row .about-img img {
     height: 80%;
+    width: 110px;
     object-fit: cover;
     object-position: center;
   }
+  .about .row .content {
+    padding: 0;
+  }
+
   .about .row .content h3 {
     margin-top: -10rem;
+    margin-top: 1rem;
+
+    font-size: 2rem;
+  }
+  
+  .about .row .content details {
+    margin-left: 3rem;
+  }
+  .about .row .content details summary {
+    font-size: 1.5rem;
+  }
+  .about .row .content p {
+    font-size: 2rem;
   }
 }
 /*  handphone2*/
