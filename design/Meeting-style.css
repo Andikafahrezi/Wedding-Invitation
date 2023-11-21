@@ -1,0 +1,80 @@
+
+body {
+  height: 200px;
+  font-family: arial;
+  background-color: #fefcfc;
+}
+
+table {
+  border-bottom: 5px solid #000;
+  padding: 20px;
+}
+.gambar{
+  align-items: center;
+}
+.gambar img {
+  padding-right: 10rem;
+}
+.gambarr{
+  align-items: center;
+}
+.gambarr img {
+  padding-right: 10rem;
+}
+.tengah {
+  text-align: center;
+  line-height: 5px;
+}
+.meeting-invitation {
+  padding: 20px 10rem 0rem 10rem;
+  margin: auto;
+}
+
+.meeting-invitation h1 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.meeting-invitation p {
+  margin-bottom: 10px;
+}
+
+.meeting-invitation .details {
+  font-weight: bold;
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media (max-width: 758px) {
+  html {
+    font-size: 70.5%;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  html {
+    font-size: 62.5%;
+  }
+  table {
+    border-bottom: 5px solid #000;
+    padding: 2px;
+  }
+
+  .tengah h2{
+    font-size: 1.2rem;
+  }
+
+  .gambar{
+    align-items: center;
+  }
+  .gambar img {
+    padding-right: 1rem;
+  }
+
+}

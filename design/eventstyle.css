@@ -1,0 +1,60 @@
+body {
+    font-family: arial;
+    background-image: url(../img/eventbg.jpg);
+    background-size: cover;
+    height: 200px;
+    color: black;
+  }
+  table {
+    padding: 20px;
+  }
+  .gambar{
+    align-items: right;
+  }
+  .gambar img {
+    padding-right: 10rem;
+  }
+  .gambarr{
+    align-items: center;
+  }
+  .gambarr img {
+    padding-right: 10rem;
+  }
+.tengah {
+    text-align: center;
+    line-height: 5px;
+  }
+  .arab{
+    font-family: 'Cairo', sans-serif;
+  }
+  .main {
+    padding-left: 15rem;
+  }
+  .main .kanan {
+    text-align: right;
+    padding-bottom: 2rem;
+    padding-right: 40px;
+  }
+  .main .kanann {
+    text-align: right;
+  }
+  @media (max-width: 1366px) {
+    html {
+      font-size: 90%;
+    }
+  }
+  @media (max-width: 758px) {
+    html {
+      font-size: 70.5%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    
+    html {
+      font-size: 62.5%;
+    }
+    .main{
+      padding-left: 7rem;
+    }
+  }
