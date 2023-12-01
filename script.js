@@ -14,6 +14,8 @@ document.addEventListener("click", function (e) {
   }
 });
 
+// Koneksi ke Spreadsheets
+
 window.addEventListener("load", function () {
   const form = document.getElementById("form-WID");
   form.addEventListener("submit", function (e) {
