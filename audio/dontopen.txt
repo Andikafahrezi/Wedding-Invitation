@@ -60,3 +60,4 @@ Project srcjavaweb
 - pertemuan 16 = index5
 - pertemuan 16 = stylle(index5,tambah)
 - pertemuan 16 = tambah
+- pertemuan 17 = Edit,proses-edit,delete  
