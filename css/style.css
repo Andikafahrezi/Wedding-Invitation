@@ -513,8 +513,8 @@ footer .credit a:hover {
     font-size: 60%;
   }
   .about .row .about-img img {
-    height: 80%;
-    width: 110px;
+    height: 100%;
+    width: 115px;
     object-fit: cover;
     object-position: center;
   }
@@ -545,9 +545,21 @@ footer .credit a:hover {
     font-size: 40%;
   }
   .about .row .about-img img {
-    height: 60%;
+    height: 100%;
+    width: 20rem;
     object-fit: cover;
-    object-position: center;
+    margin-left: 10px;
+  }
+  
+  .about .row .content details summary{
+    font-size: 2rem;
+  }
+  
+  .about .row .content details p {
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.6;
   }
   
 }
